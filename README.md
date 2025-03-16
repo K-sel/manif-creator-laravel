@@ -20,7 +20,7 @@ Cette application Laravel permet de créer et gérer des événements avec des v
 
 1. Clonez ce dépôt:
 ```bash
-git clone https://github.com/votre-utilisateur/nom-du-projet.git
+git clone ...
 cd nom-du-projet
 ```
 

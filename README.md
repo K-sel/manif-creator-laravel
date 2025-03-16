@@ -56,8 +56,8 @@ mailpit
 ```
 
 3. Accédez à l'application:
-   - Formulaire d'événements: [http://localhost:8000/](http://localhost:8000/)
-   - Interface Mailpit pour voir les emails: [http://localhost:8025/](http://localhost:8025/)
+   - Formulaire d'événements: [http://localhost:8000/](http://localhost:8000/) (a voir le lien exact dans votre terminal suivants vos ports)
+   - Interface Mailpit pour voir les emails: [http://localhost:8025/](http://localhost:8025/) (a voir le lien exact dans votre terminal suivants vos ports)
 
 ## Structure du projet
 

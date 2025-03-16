@@ -24,26 +24,19 @@ git clone ...
 cd nom-du-projet
 ```
 
-2. Installez les dépendances PHP:
+2. Installez les dépendances PHP & JavaScript:
 ```bash
-composer install
+composer install && npm install
 ```
 
-3. Installez les dépendances JavaScript:
+3. Copiez le fichier d'environnement et générez la clé d'application:
 ```bash
-npm install
-npm run dev
+cp .env.example .env && php artisan key:generate
 ```
 
-4. Copiez le fichier d'environnement et générez la clé d'application:
-```bash
-cp .env.example .env
-php artisan key:generate
-```
+4. Configurez votre base de données dans le fichier `.env`
 
-5. Configurez votre base de données dans le fichier `.env`
-
-6. Lancez les migrations:
+5. Lancez les migrations:
 ```bash
 php artisan migrate
 ```
